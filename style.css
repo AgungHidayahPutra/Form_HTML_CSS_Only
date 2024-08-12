@@ -1,0 +1,127 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url(../Img/Imgbackground2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+}
+
+.container {
+    width: 100%;
+    margin: 20px;
+    border-radius: 10px;   
+}
+
+#tableform {
+    margin-top: 2%;
+    margin-bottom: 2%;
+    border-spacing: 0;
+    border-radius: 10px;
+    box-shadow: 0px 0px 250px #081b29;
+}
+
+input[type="text"],
+input[type="date"],
+input[type="tel"],
+input[type="file"], 
+input[type="number"] {
+    outline: 3px solid #ccc;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+    cursor: pointer;
+}
+
+input[type="file"] {
+    background-color: white;
+    position: absolute;
+}
+
+textarea {
+    outline: 3px solid #ccc;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+select {
+    outline: 3px solid #ccc;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+input[type="submit"] {
+    outline: 3px solid #ccc;
+    font-weight: bold;
+    width: 50%;
+    padding: 10px;
+    background-color: rgb(49, 227, 111);
+    color: black;
+    cursor: pointer;
+    border: 2px solid black;
+    transition: .5s;
+    border-radius: 10px;
+}
+
+input[type="submit"]:hover {
+    background-color:rgb(34, 197, 91);
+    color: black;
+    transform: scale(1.1);
+}
+
+  input[type="reset"] {
+    outline: 3px solid #ccc;
+    font-weight: bold;
+    width: 60%;
+    padding: 10px;
+    background-color: rgb(233, 26, 26);
+    color: black;
+    cursor: pointer;
+    border: 2px solid black;
+    transition: .5s;
+    border-radius: 10px;
+}
+
+input[type="reset"]:hover {
+    background-color: rgb(209, 20, 20);
+    color: black;
+    transform: scale(1.1);
+}
+
+#tr2, #tr3, #tr4, #tr5, #tr6, 
+#tr7, #tr8, #tr9, #tr10, #tr11, 
+#tr12, #tr13, #tr14, #tr15, #tr16 {
+    background-color: #dedede;
+}
+
+#tdkosong1, #tdkosong2 {
+    background-color: #dedede;
+}
+
+#tdreset, #tdsubmit {
+    background-color: #dedede;
+}
+
+#tdreset {
+    border-bottom-left-radius: 10px;
+}
+
+#tdsubmit {
+    border-bottom-right-radius: 10px;
+}
+
+#thname {
+    background-color: #081b29;
+    color: white;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+#logodana, #logogopay, #logoshopeepay,
+#logoovo, #logoqris, #logolinkaja {
+    width: 50px;
+    border-radius: 10px;
+}

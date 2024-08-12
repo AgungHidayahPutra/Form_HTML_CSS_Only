@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulir Pendaftaran Member Linggau Mixed Martial Arts</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <form action="succes.html">
+            <table align="center" cellpadding="12px" id="tableform">
+                <tr id="tr1">
+                    <th colspan="5" id="thname">LINGGAU MIXED MARTIAL ARTS</th>
+                </tr>
+
+                <tr id="tr2">
+                    <td colspan="5">Nama : 
+                        <input type="text" size="50" placeholder="Nama lengkap">
+                    </td>
+                </tr>
+
+                <tr id="tr3">
+                    <td>Jenis Kelamin :</td>
+                    <td colspan="4"><input type ="radio" name ="jenis_kelamin" value="perempuan"> Perempuan
+                        <input type ="radio" name ="jenis_kelamin" value="laki-laki"> Laki-laki
+                    </td>
+                </tr>
+
+                <tr id="tr4">
+                    <td>Umur (Tahun) :</td>
+                    <td colspan="4"><input type="number" name="umur" min="2" max="70"></td>
+                </tr>
+
+                <tr id="tr5">
+                    <td>Tanggal lahir :</td>
+                    <td colspan="4"><input type="date" name="Tanggal_lahir"></td>
+                </tr>
+
+                <tr id="tr6">
+                    <td colspan="5">Hobi :
+                        <input type="text" size="51" placeholder="Boleh lebih dari 1 hobi">
+                    </td>
+                </tr>
+
+                <tr id="tr7">
+                    <td>Alamat :</td>
+                    <td colspan="4"><textarea name="alamat" cols="30" rows="4" placeholder="Tempat tinggal sekarang"></textarea></td>
+                </tr>
+
+                <tr id="tr8">
+                    <td>Telepon:</td>
+                    <td colspan="4"><input type="tel" placeholder="+62"></td>
+                </tr>
+
+                <tr id="tr9">
+                    <td>Kategori Member :</td>
+                    <td colspan="4">
+                        <select name="member" size="1">
+                            <option value="1">1 Bulan</option>
+                            <option value="2">3 Bulan</option>
+                            <option value="3">5 Bulan</option>
+                            <option value="4">1 Tahun</option>
+                        </select>
+                    </td>
+                </tr>
+
+                <tr id="tr10">
+                    <td>Jenis bela diri yang dipilih <br> (Boleh lebih dari 1 bela diri) :</td>
+                    <td colspan="4">
+                        <input type="checkbox" name="beladiri" value="muay_thai">Muay Thai
+                        <br><input type="checkbox" name="beladiri" value="boxing">Boxing
+                        <br><input type="checkbox" name="beladiri" value="bjj">Brazilian Jiu Jitsu
+                        <br><input type="checkbox" name="beladiri" value="aikido">Aikido
+                        <br><input type="checkbox" name="beladiri" value="kick_boxing">Kick Boxing
+                        <br><input type="checkbox" name="beladiri" value="mma">Mixed Martial Arts
+                    </td>
+                </tr>
+
+                <tr id="tr11">
+                    <td>Riwayat penyakit (jika ada) :</td>
+                    <td colspan="4"><textarea name="Beladiri_lebih" cols="30" rows="4" placeholder="Kosongkan jika tidak ada"></textarea></td>
+                </tr>
+
+                <tr id="tr12">
+                    <td>Pilih metode pembayaran :</td>
+                    <td align="right"><input type ="radio" name ="jenis_pembayaran" value="dana"></td>
+                    <td><img src="../Img/Logodana.png" alt="Logodana" id="logodana"></td>
+                    <td align="right"><input type ="radio" name ="jenis_pembayaran" value="gopay"></td>
+                    <td><img src="../Img/Logogopay.png" alt="Logogopay" id="logogopay"></td>
+                </tr>
+
+                <tr id="tr13">
+                    <td></td>
+                    <td align="right"><input type ="radio" name ="jenis_pembayaran" value="shopeepay"></td>
+                    <td><img src="../Img/Logoshopeepay.png" alt="Logoshopeepay" id="logoshopeepay"></td>
+                    <td align="right"><input type ="radio" name ="jenis_pembayaran" value="ovo"></td>
+                    <td><img src="../Img/Logoovo.png" alt="Logoovo" id="logoovo"></td>
+                </tr>
+
+                <tr id="tr14">
+                    <td></td>
+                    <td align="right"><input type ="radio" name ="jenis_pembayaran" value="qris"></td>
+                    <td><img src="../Img/Logoqris.png" alt="Logoqris" id="logoqris"></td>
+                    <td align="right"><input type ="radio" name ="jenis_pembayaran" value="linkaja"></td>
+                    <td><img src="../Img/Logolinkaja.png" alt="Logolinkaja" id="logolinkaja"></td>
+                </tr>
+
+                <tr id="tr15">
+                    <td></td>
+                    <td colspan="4" align="center">Metode pembayaran lainnya <br> <br>
+                        <input type ="radio" name ="jenis_pembayaran" value="danlainlain">
+                        <input type="text" size="25">
+                    </td>
+                </tr>
+
+                <tr id="tr16">
+                    <td>Upload bukti pembayaran :</td>
+                    <td colspan="4"><input type="file"></td>
+                </tr>
+
+                <tr id="tr17">
+                    <td align="center" id="tdreset">
+                        <input type="reset" value="Hapus data" name=reset>
+                    </td>
+                    <td align="center" id="tdsubmit" colspan="4">
+                        <input type="submit" value="Kirim data" name=submit>
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </div>    
+</body>
+</html>
